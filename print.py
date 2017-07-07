@@ -38,7 +38,8 @@
 #     for key,value in wordlist.items():
 #         anagram_count[key] = len(anagram_all(value))
 #     return anagram_count
-
+#http://courses.csail.mit.edu/6.867/wiki/images/3/3f/Plot-python.pdf
+#https://help.github.com/articles/adding-a-file-to-a-repository-using-the-command-line/
 
 # #print(count_anagram_len(wordclean))
 import numpy as np
