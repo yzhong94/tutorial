@@ -47,4 +47,13 @@ import matplotlib.pyplot as pp
 
 a = np.array([1,2,3,4,5])
 
-a
+print(a)
+
+np.save('example.npy',a)
+#print(np.linspace(0,10,5))
+
+x=np.linspace(0,10,40)
+sinx = np.sin(x)
+
+pp.plot(x,sinx)
+pp.show()
